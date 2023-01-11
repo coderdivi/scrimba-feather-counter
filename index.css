@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap'); 
+body {
+    background-image: url("parrot.jpg");
+    background: url(parrot.jpg) center  no-repeat
+    ;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+    text-align:center
+}
+
+h1 {
+    margin-top: 60px;
+    color: fuchsia;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+      color: blueviolet;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: red;
+}
+
+#save-btn {
+    background: greenyellow;
+}
+
+p{
+    color: red
+}
